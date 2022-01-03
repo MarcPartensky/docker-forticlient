@@ -7,9 +7,9 @@ services:
       dockerfile: Dockerfile
     image: hybirdcorp/docker-forticlient
     environment:
-      - VPNADDR=host:port
-      - VPNUSER=me@domain
-      - VPNPASS=secret
-      - VPNTIMEOUT=${VPNTIMEOUT:-10}
+      - VPNADDR=VPN01.pickup-services.com
+      - VPNUSER=m.partensky@pickup-services.com
+      - VPNPASS=69GlouGlou69
+      - VPNTIMEOUT=30
     network_mode: "host"
     privileged: true
